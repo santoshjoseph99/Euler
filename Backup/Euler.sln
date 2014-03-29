@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEuler", "CEuler\CEuler.vcxproj", "{92B263F4-8319-4C6B-A5C1-D296F5C655AB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsEuler", "FsEuler\FsEuler.fsproj", "{376FABBF-D355-45E0-B4A2-29250F718E22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E8A7332-9EB8-44F3-BC44-5EF3DA628136}"
+	ProjectSection(SolutionItems) = preProject
+		notes.txt = notes.txt
+	EndProjectSection
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "JsEuler2", "JsEuler2\JsEuler2.njsproj", "{B2B2A73B-79B1-449D-85FA-2636D0821280}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Debug|Win32.Build.0 = Debug|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Debug|x86.Build.0 = Debug|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Release|Any CPU.ActiveCfg = Release|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Release|Win32.ActiveCfg = Release|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Release|Win32.Build.0 = Release|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Release|x86.ActiveCfg = Release|Win32
+		{92B263F4-8319-4C6B-A5C1-D296F5C655AB}.Release|x86.Build.0 = Release|Win32
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Release|Win32.ActiveCfg = Release|Any CPU
+		{376FABBF-D355-45E0-B4A2-29250F718E22}.Release|x86.ActiveCfg = Release|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Release|Win32.ActiveCfg = Release|Any CPU
+		{B2B2A73B-79B1-449D-85FA-2636D0821280}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

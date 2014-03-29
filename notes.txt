@@ -1,0 +1,14 @@
+
+sum of all positive numbers which CANNOT be written as the sum of 2 abundant numbers
+
+abundant number: sum of diviors is greater then number
+
+28123 - every number above this can be written as a sum of 2 abundant numbers
+24 - smallest number which can be written as a sum of 2 abundant numbers
+
+25 -> find all abundant number below this (1..24), then add them in all permutations
+
+algorithm:
+    find all abundant number -> [a]
+    find sums of all pairs of abundant numbers in [a] -> [b]
+    sum all numbers not in [b] -> c

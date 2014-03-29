@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>f48420e4-be96-43a3-9392-af1a3e8965d3</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <StartupFile>server.js</StartupFile>
+    <ProjectTypeGuids>{262852C6-CD72-467D-83FE-5EEB1973A190};{F48CDB0C-A733-4163-8884-DCAA07CF69BF}</ProjectTypeGuids>
+    <Name>JsEuler</Name>
+    <RootNamespace>JsEuler</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="interview1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="p18data.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="problem18.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="problem24.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="problem31.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="problem32.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="problem33.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="problem34.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="problem35.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="problem36.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="server.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="node_modules\" />
+    <Folder Include="node_modules\underscore\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
