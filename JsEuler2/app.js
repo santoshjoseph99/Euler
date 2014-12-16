@@ -1,6 +1,6 @@
 
 var readline = require('readline');
-var problem = require('./problems/problem37');
+var problem = require('./problems/problem40');
 
 var rl = readline.createInterface({
     input: process.stdin,

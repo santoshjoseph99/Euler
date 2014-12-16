@@ -40,7 +40,11 @@
     <Compile Include="problems\problem35.js" />
     <Compile Include="problems\problem36.js" />
     <Compile Include="problems\problem37.js" />
+    <Compile Include="problems\problem38.js" />
+    <Compile Include="problems\problem39.js" />
+    <Compile Include="problems\problem40.js" />
     <Compile Include="tests\test37.js" />
+    <Compile Include="tests\test38.js" />
     <Content Include="package.json" />
     <Content Include="problems\p18data.txt" />
     <Content Include="problems\triangle.txt" />
