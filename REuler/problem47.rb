@@ -15,10 +15,11 @@ end
 
 def is_prime(n)
 	return true if n == 0 || n == 1 || n == 2
-	for x in 2..n
-		return true if x == n
+	for x in 2..(Math.sqrt(n))
+		#return true if x == n
 		return false if n % x == 0
 	end
+	return true
 	#return is_prime_helper(n, 2)
 end
 
